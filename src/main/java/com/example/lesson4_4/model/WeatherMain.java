@@ -24,4 +24,12 @@ public class WeatherMain {
     public void setHumidity(BigDecimal humidity) {
         this.humidity = humidity;
     }
+
+    @Override
+    public String toString() {
+        return "WeatherMain{" +
+                "temp=" + temp +
+                ", humidity=" + humidity +
+                '}';
+    }
 }
